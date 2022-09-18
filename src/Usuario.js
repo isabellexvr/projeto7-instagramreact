@@ -13,7 +13,7 @@ export default function Usuario() {
             <strong>{nome}</strong>
             <span>
                 Catana
-                <ion-icon onClick={()=>setNome(prompt("Qual é o seu nome"))} name="pencil"></ion-icon>
+                <ion-icon onClick={()=>setNome(prompt("Qual é o seu nome?"))} name="pencil"></ion-icon>
             </span>
         </div>
     </div>
